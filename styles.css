@@ -1,0 +1,43 @@
+/* змінні */
+:root {
+  --color-brand: #2b7fff;
+  --color-primery-black: #011c44;
+  --color-primery-white: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-link {
+  color: var(--color-primery-black);
+}
+
+.header-link:hover {
+  color: var(--color-brand);
+}
+
+.accent {
+  color: var(--color-brand);
+}
+
+.hero-title {
+  color: var(--color-brand);
+}
+
+.button {
+  color: var(--color-primery-white);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primery-black);
+  background-color: transparent;
+}
+
+.section-title {
+  color: var(--color-primery-black);
+}
